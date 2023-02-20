@@ -90,9 +90,16 @@ if MAIN_MENU == "Home":
                 color: white;
             }
         </style>
-        """, unsafe_allow_html=True
+        """, unsafe_allow_html = True
     )
 
     st.markdown("<p class='h1'>RAPHA INTERNATIONAL MINISTRIES</p>", unsafe_allow_html = True)
 
     st.markdown("<h2 style='text-align: center; color: white;'>SINCE 2020</h2>", unsafe_allow_html = True)
+
+    st.markdown(
+        """
+        <style>
+        .css-eczf16 {display: none}
+        </style>
+        """, unsafe_allow_html = True)
