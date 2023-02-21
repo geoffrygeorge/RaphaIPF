@@ -84,6 +84,8 @@ if MAIN_MENU == "Home":
             <style>
             img {
                 display: block;
+                max-width: 100%;
+                max-height: 100%;
                 margin-left: auto;
                 margin-right: auto;
                 margin-top: -30px;
