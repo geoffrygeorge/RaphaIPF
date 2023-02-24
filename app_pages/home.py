@@ -16,6 +16,7 @@ def home_page():
             <style>
             .stApp {{
                 background-image: url(data:image/{"jpg"};base64,{ENCODED_STRING.decode()});
+                background-attachment: fixed;
                 background-size: cover
             }}
             </style>
@@ -24,7 +25,7 @@ def home_page():
     home_bg("Assets/images/PRAY.jpg")
 
     with st.container():
-        
+
         ## RAPHA LOGO
         # 1st method deprecated
         if False:
@@ -54,7 +55,8 @@ def home_page():
                     max-height: 100%;
                     margin-left: auto;
                     margin-right: auto;
-                    padding-bottom: 50px;
+                    margin-top: auto;
+                    padding-bottom: 60px;
                 }
 
                 .zoom {
@@ -92,11 +94,29 @@ def home_page():
 
         st.markdown("<p class='h1'>RAPHA INTERNATIONAL MINISTRIES</p>", unsafe_allow_html = True)
 
-        st.markdown("<h2 style='text-align: center; color: white;'>SINCE 2020</h2>", unsafe_allow_html = True)
-
+        ## SECOND TITLE
         st.markdown(
             """
             <style>
-            .css-eczf16 {display: none}
+                @import url(https://fonts.googleapis.com/css?family=Roboto);
+                .h2 {
+                    text-align: center;
+                    font-size: calc(1.0em + 1vmin);
+                    font-family: 'Roboto', sans-serif;
+                    font-weight: bold;
+                    color: white;
+                }
             </style>
             """, unsafe_allow_html = True)
+
+        st.markdown("<p class='h2'>since 2020</p>", unsafe_allow_html = True)
+
+        if False:
+            st.markdown("<h2 style='text-align: center; color: white;'>SINCE 2020</h2>", unsafe_allow_html = True)
+
+            st.markdown(
+                """
+                <style>
+                .css-eczf16 {display: none}
+                </style>
+                """, unsafe_allow_html = True)
