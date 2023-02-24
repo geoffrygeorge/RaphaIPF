@@ -81,11 +81,11 @@ def home_page():
         st.markdown(
             """
             <style>
-                @import url(https://fonts.googleapis.com/css?family=Roboto);
+                @import url(https://fonts.googleapis.com/css?family=Lobster);
                 .h1 {
                     text-align: center;
                     font-size: calc(1.0em + 4.5vmin);
-                    font-family: 'Roboto', sans-serif;
+                    font-family: 'Lobster', sans-serif;
                     font-weight: bold;
                     color: white;
                 }
@@ -99,11 +99,11 @@ def home_page():
             st.markdown(
                 """
                 <style>
-                    @import url(https://fonts.googleapis.com/css?family=Roboto);
+                    @import url(https://fonts.googleapis.com/css?family=Lobster);
                     .h2 {
                         text-align: center;
                         font-size: calc(1.0em + 1vmin);
-                        font-family: 'Roboto', sans-serif;
+                        font-family: 'Lobster', sans-serif;
                         font-weight: bold;
                         color: white;
                     }
