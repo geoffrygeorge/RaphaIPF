@@ -4,8 +4,6 @@
 
 """importing libraries"""
 import streamlit as st
-from PIL import Image
-from streamlit_lottie import st_lottie
 from streamlit_option_menu import option_menu
 from app_pages import home
 
