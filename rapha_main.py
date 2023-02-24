@@ -25,6 +25,7 @@ st.markdown("""
     #MainMenu {visibility: hidden;}
     header {visibility: hidden;}
     footer {visibility: hidden;}
+    .css-fblp2m {color: white;}
     </style>
     """, unsafe_allow_html = True)
 
