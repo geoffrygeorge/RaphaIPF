@@ -56,7 +56,7 @@ def home_page():
                     margin-left: auto;
                     margin-right: auto;
                     margin-top: auto;
-                    padding-bottom: 60px;
+                    padding-bottom: 100px;
                 }
 
                 .zoom {
@@ -92,27 +92,28 @@ def home_page():
             </style>
             """, unsafe_allow_html = True)
 
-        st.markdown("<p class='h1'>RAPHA INTERNATIONAL MINISTRIES</p>", unsafe_allow_html = True)
-
-        ## SECOND TITLE
-        st.markdown(
-            """
-            <style>
-                @import url(https://fonts.googleapis.com/css?family=Roboto);
-                .h2 {
-                    text-align: center;
-                    font-size: calc(1.0em + 1vmin);
-                    font-family: 'Roboto', sans-serif;
-                    font-weight: bold;
-                    color: white;
-                }
-            </style>
-            """, unsafe_allow_html = True)
-
-        st.markdown("<p class='h2'>since 2020</p>", unsafe_allow_html = True)
+        st.markdown("<p class = 'h1'>RAPHA INTERNATIONAL MINISTRIES</p>", unsafe_allow_html = True)
 
         if False:
-            st.markdown("<h2 style='text-align: center; color: white;'>SINCE 2020</h2>", unsafe_allow_html = True)
+        ## SECOND TITLE
+            st.markdown(
+                """
+                <style>
+                    @import url(https://fonts.googleapis.com/css?family=Roboto);
+                    .h2 {
+                        text-align: center;
+                        font-size: calc(1.0em + 1vmin);
+                        font-family: 'Roboto', sans-serif;
+                        font-weight: bold;
+                        color: white;
+                    }
+                </style>
+                """, unsafe_allow_html = True)
+
+            st.markdown("<p class = 'h2'>since 2020</p>", unsafe_allow_html = True)
+
+        
+            st.markdown("<h2 style = 'text-align: center; color: white;'>SINCE 2020</h2>", unsafe_allow_html = True)
 
             st.markdown(
                 """
