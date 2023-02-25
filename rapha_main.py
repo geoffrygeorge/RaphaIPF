@@ -25,10 +25,12 @@ st.markdown("""
     #MainMenu {visibility: hidden;}
     .css-jlsh98 {background: rgba(214,234,248,0.5); backdrop-filter: blur(50px);}
     footer {visibility: hidden;}
-    footer:after {visibility: visible; 
+    /*footer:after {visibility: visible; 
                   content: "Copyright @ 2023: Rapha International Ministries";
+                  display: block;
                   color: white;
                   }
+    */
     </style>
     """, unsafe_allow_html = True)
 

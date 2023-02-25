@@ -16,7 +16,9 @@ def home_page():
             <style>
             .stApp {{
                 background-image: url(data:image/{"jpg"};base64,{ENCODED_STRING.decode()});
+                background-position: center;
                 background-attachment: fixed;
+                background-repeat: no-repeat;
                 background-size: cover;
             }}
             </style>
