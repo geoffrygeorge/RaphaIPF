@@ -5,7 +5,7 @@
 """importing libraries"""
 import streamlit as st
 from streamlit_option_menu import option_menu
-from app_pages import home
+from app_pages import home, about
 
 # PAGE LAYOUT SETTINGS
 
@@ -38,10 +38,14 @@ st.markdown("""
 
 with st.sidebar:
     MAIN_MENU = option_menu(
-        "Main Menu", ["Home"],
-        icons = ["house"], menu_icon = "cast", default_index = 0)
+        "Main Menu", ["Home", "About Us"],
+        icons = ["house", "info-circle"], menu_icon = "menu-up", default_index = 0)
 
 ### HOME ###
 if MAIN_MENU == "Home":
 
     home.home_page()
+
+if MAIN_MENU == "About Us":
+
+    about.about_page()
