@@ -66,8 +66,8 @@ def home_page():
                     max-height: auto;
                     margin-left: auto;
                     margin-right: auto;
-                    margin-top: auto;
-                    padding-bottom: 100px;
+                    margin-top: -20px;
+                    padding-bottom: 80px;
                 }
 
                 .zoom {
@@ -106,24 +106,23 @@ def home_page():
         st.markdown("<p class = 'h1'>RAPHA INTERNATIONAL MINISTRIES</p>", unsafe_allow_html = True)
         
         # SECOND TITLE
+        st.markdown(
+            """
+            <style>
+                @import url(https://fonts.googleapis.com/css?family=Tilt+Warp);
+                .h2 {
+                    text-align: center;
+                    font-size: calc(1.0em + 1vmin);
+                    font-family: 'Tilt+Warp', sans-serif;
+                    font-weight: bold;
+                    color: white;
+                }
+            </style>
+            """, unsafe_allow_html = True)
+
+        st.markdown("<p class = 'h2'>Kingdom of Bahrain </p>", unsafe_allow_html = True)
+
         if False:
-            st.markdown(
-                """
-                <style>
-                    @import url(https://fonts.googleapis.com/css?family=Tilt+Warp);
-                    .h2 {
-                        text-align: center;
-                        font-size: calc(1.0em + 1vmin);
-                        font-family: 'Tilt+Warp', sans-serif;
-                        font-weight: bold;
-                        color: white;
-                    }
-                </style>
-                """, unsafe_allow_html = True)
-
-            st.markdown("<p class = 'h2'>since 2020</p>", unsafe_allow_html = True)
-
-        
             st.markdown("<h2 style = 'text-align: center; color: white;'>SINCE 2020</h2>", unsafe_allow_html = True)
 
             st.markdown(
