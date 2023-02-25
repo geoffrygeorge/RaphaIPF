@@ -67,7 +67,7 @@ def home_page():
                     margin-left: auto;
                     margin-right: auto;
                     margin-top: -30px;
-                    padding-bottom: 50px;
+                    padding-bottom: 40px;
                 }
 
                 .zoom {
@@ -92,12 +92,11 @@ def home_page():
         st.markdown(
             """
             <style>
-                @import url(https://fonts.googleapis.com/css?family=Tilt+Warp);
+                @import url(https://fonts.googleapis.com/css?family=Roboto);
                 .h1 {
                     text-align: center;
-                    margin-bottom: -20px;
                     font-size: calc(1.0em + 4.5vmin);
-                    font-family: 'Tilt+Warp', sans-serif;
+                    font-family: 'Roboto', sans-serif;
                     font-weight: bold;
                     color: white;
                 }
@@ -110,11 +109,11 @@ def home_page():
         st.markdown(
             """
             <style>
-                @import url(https://fonts.googleapis.com/css?family=Tilt+Warp);
+                @import url(https://fonts.googleapis.com/css?family=Roboto);
                 .h2 {
                     text-align: center;
                     font-size: calc(1.0em + 1vmin);
-                    font-family: 'Tilt+Warp', sans-serif;
+                    font-family: 'Roboto', sans-serif;
                     font-weight: bold;
                     color: white;
                 }
