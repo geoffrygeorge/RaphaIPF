@@ -13,7 +13,7 @@ from app_pages import home
 st.set_page_config(
     page_title = "Rapha Int'l Ministries",
     page_icon = "Assets/images/RAPHA LOGO.png",
-    initial_sidebar_state = "auto",
+    initial_sidebar_state = "collapsed",
     layout = "wide",
 )
 
