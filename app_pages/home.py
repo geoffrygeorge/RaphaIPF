@@ -1,14 +1,22 @@
+# ----- IMPORTING NECESSARY LIBRARIES
 import streamlit as st
 import base64
 from pathlib2 import Path
 
+
+# ----- HOME FUNCTION DEFINITION -----
 def home_page():
-    
-    ## HOME BACKGROUND
+    """
+    Function Definition consisting of various Home sections
+    """
+
+    # ----- HOME BACKGROUND -----
     # background resources: https://unsplash.com/s/photos/prayer
     # Photo by <a href="https://unsplash.com/@patrickian4?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Patrick Fore</a> on <a href="https://unsplash.com/s/photos/prayer?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
     def home_bg(HOME_BG_IMAGE):
-        """function definition concerning HOME bg image"""
+        """
+        JPG Encoder for setting .jpg images as background(s)
+        """
         with open(HOME_BG_IMAGE, "rb") as HOME_BG_IMAGE:
             ENCODED_STRING = base64.b64encode(HOME_BG_IMAGE.read())
         st.markdown(
@@ -26,9 +34,10 @@ def home_page():
 
     home_bg("Assets/images/PRAY.jpg")
 
+    # ----- RAPHA LOGO AND MAIN TITLE(S) -----
     with st.container():
 
-        ## RAPHA LOGO
+        # RAPHA LOGO
         # 1st method deprecated
         if False:
             def img_to_bytes(LOGO_PATH):
@@ -77,7 +86,7 @@ def home_page():
 
         home_logo("Assets/images/RAPHA LOGO.png")
 
-        ## MAIN TITLE
+        # MAIN TITLE
         # <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet'/>
         # https://www.justinmind.com/blog/best-google-web-fonts-website/
         st.markdown(
@@ -95,9 +104,9 @@ def home_page():
             """, unsafe_allow_html = True)
 
         st.markdown("<p class = 'h1'>RAPHA INTERNATIONAL MINISTRIES</p>", unsafe_allow_html = True)
-
+        
+        # SECOND TITLE
         if False:
-        ## SECOND TITLE
             st.markdown(
                 """
                 <style>
