@@ -66,8 +66,8 @@ def home_page():
                     max-height: auto;
                     margin-left: auto;
                     margin-right: auto;
-                    margin-top: -20px;
-                    padding-bottom: 80px;
+                    margin-top: -30px;
+                    padding-bottom: 50px;
                 }
 
                 .zoom {
@@ -95,6 +95,7 @@ def home_page():
                 @import url(https://fonts.googleapis.com/css?family=Tilt+Warp);
                 .h1 {
                     text-align: center;
+                    margin-bottom: -20px;
                     font-size: calc(1.0em + 4.5vmin);
                     font-family: 'Tilt+Warp', sans-serif;
                     font-weight: bold;
@@ -120,7 +121,7 @@ def home_page():
             </style>
             """, unsafe_allow_html = True)
 
-        st.markdown("<p class = 'h2'>Kingdom of Bahrain </p>", unsafe_allow_html = True)
+        st.markdown("<p class = 'h2'>Kingdom of Bahrain, since 2020</p>", unsafe_allow_html = True)
 
         if False:
             st.markdown("<h2 style = 'text-align: center; color: white;'>SINCE 2020</h2>", unsafe_allow_html = True)
@@ -131,3 +132,19 @@ def home_page():
                 .css-eczf16 {display: none}
                 </style>
                 """, unsafe_allow_html = True)
+            
+        # BIBLE VERSE
+        st.markdown("""
+            <style>
+                @import url(https://fonts.googleapis.com/css?family = Roboto);
+                .medium-font {
+                    text-align: center;
+                    font-size: calc(1.0em + 1vmin);
+                    font-family: 'Roboto', sans-serif;
+                    font-weight: medium;
+                    color: white;
+                }
+            </style>
+        """, unsafe_allow_html = True)
+
+        st.markdown("""<p class = "medium-font">"Philippians 4:13 - I can do all things through Christ Who strengthens me"</p>""", unsafe_allow_html = True)
