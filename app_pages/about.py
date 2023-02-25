@@ -6,19 +6,20 @@ def about_page():
 
     ## ABOUT BACKGROUND
     ## SVG ENCODER FOR BACKGROUND
-    def add_bg_from_local(SVG_FILE):  
-        with open(SVG_FILE, "rb") as SVG_FILE:
-            encoded_string = base64.b64encode(SVG_FILE.read())
+    def about_bg(SVG_IMAGE):  
+        with open(SVG_IMAGE, "rb") as SVG_IMAGE:
+            encoded_string = base64.b64encode(SVG_IMAGE.read())
         st.markdown(
-        f"""
-        <style>
-        .stApp {{
-            background-image: url(data:image/{"svg+xml"};base64,{encoded_string.decode()});
-            background-size: cover
-        }}
-        </style>
-        """,
-        unsafe_allow_html=True
-        )
+            f"""
+            <style>
+            .stApp {{
+                background-image: url(data:image/{"svg+xml"};base64,{encoded_string.decode()});
+                background-position: center;
+                background-attachment: fixed;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }}
+            </style>
+            """, unsafe_allow_html = True)
 
-    add_bg_from_local('images/SHINY.svg')
+    about_bg('Assets/images/SHINY.svg')
