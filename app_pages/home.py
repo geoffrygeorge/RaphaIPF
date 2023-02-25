@@ -17,7 +17,7 @@ def home_page():
             .stApp {{
                 background-image: url(data:image/{"jpg"};base64,{ENCODED_STRING.decode()});
                 background-attachment: fixed;
-                background-size: cover
+                background-size: cover;
             }}
             </style>
             """, unsafe_allow_html = True)
