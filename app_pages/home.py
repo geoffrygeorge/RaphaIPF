@@ -62,7 +62,7 @@ def home_page():
                 <style>
                 img {
                     display: block;
-                    max-width: 50%;
+                    max-width: 40%;
                     max-height: auto;
                     margin-left: auto;
                     margin-right: auto;
