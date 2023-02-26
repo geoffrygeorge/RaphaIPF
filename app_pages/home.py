@@ -62,12 +62,12 @@ def home_page():
                 <style>
                 img {
                     display: block;
-                    max-width: 60%;
+                    max-width: 50%;
                     max-height: auto;
                     margin-left: auto;
                     margin-right: auto;
                     margin-top: -30px;
-                    padding-bottom: 40px;
+                    padding-bottom: 30px;
                 }
 
                 .zoom {
