@@ -38,29 +38,29 @@ def about_page():
         # TITLE
         st.markdown("""
             <style>
-                @import url(https://fonts.googleapis.com/css?family = Roboto);
-                .h2 {
+                @import url(https://fonts.googleapis.com/css?family=Montserrat);
+                h2 {
                     text-align: center;
                     margin-top:-50px;
                     font-size: calc(1.0em + 4vmin);
-                    font-family: 'Roboto', sans-serif;
+                    font-family: 'Montserrat', sans-serif;
                     font-weight: bold;
                     color: white;
                 }
             </style>
         """, unsafe_allow_html = True)
 
-        st.markdown("<p class = 'h2'>Our Ministry</p>", unsafe_allow_html = True)
+        st.markdown("<h2>Our Ministry</h2>", unsafe_allow_html = True)
 
         # DESCRIPTION
         st.markdown("""
             <style>
-                @import url(https://fonts.googleapis.com/css?family = Roboto);
+                @import url(https://fonts.googleapis.com/css?family=Montserrat);
                 .medium-font {
                     text-align: justify;
                     margin-bottom:70px;
                     font-size: calc(1.0em + 1vmin);
-                    font-family: 'Roboto', sans-serif;
+                    font-family: 'Montserrat', sans-serif;
                     font-weight: medium;
                     color: white;
                 }

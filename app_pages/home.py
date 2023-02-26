@@ -92,54 +92,44 @@ def home_page():
         st.markdown(
             """
             <style>
-                @import url(https://fonts.googleapis.com/css?family=Roboto);
-                .h1 {
+                @import url(https://fonts.googleapis.com/css?family=Montserrat);
+                h1 {
                     text-align: center;
                     font-size: calc(1.0em + 4.5vmin);
-                    font-family: 'Roboto', sans-serif;
+                    font-family: 'Montserrat', sans-serif;
                     font-weight: bold;
                     color: white;
                 }
             </style>
             """, unsafe_allow_html = True)
 
-        st.markdown("<p class = 'h1'>RAPHA INTERNATIONAL MINISTRIES</p>", unsafe_allow_html = True)
+        st.markdown("<h1>RAPHA INTERNATIONAL MINISTRIES</h1>", unsafe_allow_html = True)
         
         # SECOND TITLE
         st.markdown(
             """
             <style>
-                @import url(https://fonts.googleapis.com/css?family=Roboto);
-                .h2 {
+                @import url(https://fonts.googleapis.com/css?family=Montserrat);
+                h2 {
                     text-align: center;
                     font-size: calc(1.0em + 1vmin);
-                    font-family: 'Roboto', sans-serif;
+                    font-family: 'Montserrat', sans-serif;
                     font-weight: bold;
                     color: white;
                 }
             </style>
             """, unsafe_allow_html = True)
 
-        st.markdown("<p class = 'h2'>Kingdom of Bahrain, since 2020</p>", unsafe_allow_html = True)
-
-        if False:
-            st.markdown("<h2 style = 'text-align: center; color: white;'>SINCE 2020</h2>", unsafe_allow_html = True)
-
-            st.markdown(
-                """
-                <style>
-                .css-eczf16 {display: none}
-                </style>
-                """, unsafe_allow_html = True)
+        st.markdown("<h2>Kingdom of Bahrain, since 2020</h2>", unsafe_allow_html = True)
             
         # BIBLE VERSE
         st.markdown("""
             <style>
-                @import url(https://fonts.googleapis.com/css?family = Roboto);
+                @import url(https://fonts.googleapis.com/css?family=Montserrat);
                 .medium-font {
                     text-align: center;
                     font-size: calc(1.0em + 1vmin);
-                    font-family: 'Roboto', sans-serif;
+                    font-family: 'Montserrat', sans-serif;
                     font-weight: medium;
                     color: white;
                 }
