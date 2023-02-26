@@ -70,19 +70,19 @@ def home_page():
                     padding-bottom: 30px;
                 }
 
-                .zoom {
+                .logo {
                     transition: transform .2s;
                 }
 
-                .zoom:hover {
-                    transform: scale(1.05);
+                .logo:hover {
+                    transform: scale(1.10);
                 }
                 </style>
                 """, unsafe_allow_html = True)
             
             st.markdown(
                 f"""
-                <img src = "data:image/{"png"};base64,{ENCODED_STRING.decode()}" class="zoom">""", unsafe_allow_html = True)
+                <img src = "data:image/{"png"};base64,{ENCODED_STRING.decode()}" class="logo">""", unsafe_allow_html = True)
 
         home_logo("Assets/images/RAPHA LOGO.png")
 
@@ -93,7 +93,7 @@ def home_page():
             """
             <style>
                 @import url(https://fonts.googleapis.com/css?family=Montserrat);
-                h1 {
+                .main_title {
                     text-align: center;
                     font-size: calc(1.0em + 4.5vmin);
                     font-family: 'Montserrat', sans-serif;
@@ -103,14 +103,14 @@ def home_page():
             </style>
             """, unsafe_allow_html = True)
 
-        st.markdown("<h1>RAPHA INTERNATIONAL MINISTRIES</h1>", unsafe_allow_html = True)
+        st.markdown("<h1 class = 'main_title'>RAPHA INTERNATIONAL MINISTRIES</h1>", unsafe_allow_html = True)
         
         # SECOND TITLE
         st.markdown(
             """
             <style>
                 @import url(https://fonts.googleapis.com/css?family=Montserrat);
-                h2 {
+                .second_title {
                     text-align: center;
                     font-size: calc(1.0em + 1vmin);
                     font-family: 'Montserrat', sans-serif;
@@ -120,13 +120,13 @@ def home_page():
             </style>
             """, unsafe_allow_html = True)
 
-        st.markdown("<h2>Kingdom of Bahrain, since 2020</h2>", unsafe_allow_html = True)
+        st.markdown("<h2 class = 'second_title'>Kingdom of Bahrain, since 2020</h2>", unsafe_allow_html = True)
             
         # BIBLE VERSE
         st.markdown("""
             <style>
                 @import url(https://fonts.googleapis.com/css?family=Montserrat);
-                .medium-font {
+                .verse_medium-font {
                     text-align: center;
                     font-size: calc(1.0em + 1vmin);
                     font-family: 'Montserrat', sans-serif;
@@ -136,4 +136,4 @@ def home_page():
             </style>
         """, unsafe_allow_html = True)
 
-        st.markdown("""<p class = "medium-font">"Philippians 4:13 - I can do all things through Christ Who strengthens me"</p>""", unsafe_allow_html = True)
+        st.markdown("""<p class = "verse_medium-font">"Philippians 4:13 - I can do all things through Christ Who strengthens me"</p>""", unsafe_allow_html = True)
