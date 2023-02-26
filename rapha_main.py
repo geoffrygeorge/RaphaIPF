@@ -6,7 +6,7 @@ Author & Maintainer: Geoffry
 Project Start Date: 20th February, 2023
 """
 
-# ----- IMPORTING NECESSARY LIBRARIES
+# ----- IMPORTING NECESSARY LIBRARIES -----
 import streamlit as st
 from streamlit_option_menu import option_menu
 from app_pages import home, about
@@ -32,7 +32,22 @@ st.markdown("""
                   color: white;
                   }
     */
-    .css-1nkmln7 {display: none} /* anchor link hidden*/
+    .css-1nkmln7 {display: none} /*anchor link hidden*/
+    .css-fblp2m {animation: zoom-in-zoom-out 1s ease infinite;} /*sidebar arrow animation*
+
+    @keyframes zoom-in-zoom-out {
+    0% {
+        transform: scale(1, 1);
+    }
+
+    50% {
+        transform: scale(2, 2);
+    }
+
+    100% {
+        transform: scale(1, 1);
+    }
+    }
     </style>
     """, unsafe_allow_html = True)
 
