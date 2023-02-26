@@ -26,7 +26,7 @@ st.markdown("""
     #MainMenu {visibility: hidden;}
     .css-jlsh98 {background: rgba(214,234,248,0.5); backdrop-filter: blur(30px);}
     footer {visibility: hidden;}
-    .viewerBadge_container__1QSob {visibility: hidden;}
+    .viewerBadge_link__1S137 {--bg-opacity: 0;}
     /*footer:after {visibility: visible; 
                   content: "Copyright @ 2023: Rapha International Ministries";
                   display: block;
