@@ -32,6 +32,7 @@ st.markdown("""
                   color: white;
                   }
     */
+    .css-1nkmln7 {display: none} /* anchor link hidden*/
     </style>
     """, unsafe_allow_html = True)
 
