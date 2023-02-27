@@ -33,7 +33,7 @@ st.markdown("""
                   }
     */
     .css-1nkmln7 {display: none} /*anchor link hidden*/
-    .css-fblp2m {animation: zoom-in-zoom-out 1s ease infinite;} /*sidebar arrow animation*/
+    .css-fblp2m {color: aqua; animation: zoom-in-zoom-out 1s ease infinite;} /*sidebar arrow animation*/
 
     @keyframes zoom-in-zoom-out {
     0% {
