@@ -54,12 +54,18 @@ st.markdown("""
 
 # ----- SIDEBAR -----
 with st.sidebar:
-    MAIN_MENU = option_menu(
-        "Main Menu", ["Home", "About Us"],
-        icons = ["house", "info-circle"], 
-        menu_icon = "menu-up", 
-        default_index = 0, 
-        orientation = "vertical")
+
+    # custom sidebar option menu
+    if False:
+        MAIN_MENU = option_menu(
+            "Main Menu", ["Home", "About Us"],
+            icons = ["house", "info-circle"], 
+            menu_icon = "menu-up", 
+            default_index = 0, 
+            orientation = "vertical")
+    
+    # default sidebar option menu
+    MAIN_MENU = st.selectbox("MAIN MENU", ("Home", "About Us"))
 
 # ----- HOME PAGE -----
 if MAIN_MENU == "Home":
