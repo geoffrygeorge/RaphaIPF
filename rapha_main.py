@@ -24,6 +24,7 @@ st.set_page_config(
 st.markdown("""
     <style>
     #MainMenu {visibility: hidden;}
+    header {visibility: hidden;}
     .css-jlsh98 {background: rgba(214,234,248,0.5); backdrop-filter: blur(5px);}
     footer {visibility: hidden;}
     /*footer:after {visibility: visible; 
