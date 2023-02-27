@@ -21,18 +21,9 @@ st.set_page_config(
     layout = "wide"
 )
 
-st.markdown('<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">', unsafe_allow_html=True)
-
-st.markdown("""
-<nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color: rgba(52,152,219,0.5); backdrop-filter: blur(5px);">
-  <a class="navbar-brand" href="#" target="_blank">Rapha Int'l Ministries</a>
-</nav>
-""", unsafe_allow_html=True)
-
 st.markdown("""
     <style>
     #MainMenu {visibility: hidden;}
-    header {visibility: hidden;}
     .css-jlsh98 {background: rgba(214,234,248,0.5); backdrop-filter: blur(5px);}
     footer {visibility: hidden;}
     /*footer:after {visibility: visible; 
@@ -42,7 +33,7 @@ st.markdown("""
                   }
     */
     .css-1nkmln7 {display: none} /*anchor link hidden*/
-    .css-fblp2m {color: aqua; animation: zoom-in-zoom-out 1s ease infinite;} /*sidebar arrow animation*/
+    .css-fblp2m {animation: zoom-in-zoom-out 1s ease infinite;} /*sidebar arrow animation*/
 
     @keyframes zoom-in-zoom-out {
     0% {
@@ -60,23 +51,15 @@ st.markdown("""
     </style>
     """, unsafe_allow_html = True)
 
-st.markdown("""
-    <style>
-    /*sidebar collapsed state*/
-    .css-3m5iqg.e1fqkh3o1 {
-        margin-top: 4rem;
-    }
-
-    /*sidebar expanded state*/
-    .css-6qob1r.e1fqkh3o3 {
-        margin-top: 4rem;
-    }
-    </style>
-    """, unsafe_allow_html = True)
 
 # ----- SIDEBAR MENUS -----
 with st.sidebar:
-    MAIN_MENU = st.selectbox("Main Menu", ("Home", "About Us"))
+    MAIN_MENU = option_menu(
+        "Main Menu", ["Home", "About Us"],
+        icons = ["house", "info-circle"], 
+        menu_icon = "menu-up", 
+        default_index = 0, 
+        orientation = "vertical")
 
 # ----- HOME PAGE -----
 if MAIN_MENU == "Home":
