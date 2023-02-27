@@ -52,6 +52,13 @@ st.markdown("""
     </style>
     """, unsafe_allow_html = True)
 
+st.markdown("""
+    <style>
+    .css-d6zo1o.e1fqkh3o2 {
+        margin-top: 4rem;
+    }
+    </style>
+    """, unsafe_allow_html = True)
 
 # ----- SIDEBAR MENUS -----
 with st.sidebar:
