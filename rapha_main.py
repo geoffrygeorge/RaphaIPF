@@ -52,8 +52,11 @@ st.markdown("""
     """, unsafe_allow_html = True)
 
 
-# ----- SIDEBAR MENUS -----
+# ----- SIDEBAR -----
 with st.sidebar:
+
+    st.title("RAPHA")
+
     MAIN_MENU = option_menu(
         "Main Menu", ["Home", "About Us"],
         icons = ["house", "info-circle"], 
