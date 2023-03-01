@@ -114,7 +114,7 @@ with st.container():
                 <style>
                 .george {
                     display: block;
-                    max-width: 80%;
+                    max-width: 100%;
                     max-height: auto;
                     margin-left: auto;
                     margin-right: auto;
@@ -125,7 +125,7 @@ with st.container():
                 }
 
                 .gzoom:hover {
-                    transform: scale(1.10);
+                    transform: scale(1.05);
                 }
                 </style>
                 """, unsafe_allow_html = True)
@@ -180,7 +180,7 @@ with st.container():
                 <style>
                 .manoj {
                     display: block;
-                    max-width: 80%;
+                    max-width: 100%;
                     max-height: auto;
                     margin-left: auto;
                     margin-right: auto;
@@ -191,7 +191,7 @@ with st.container():
                 }
 
                 .mzoom:hover {
-                    transform: scale(1.10);
+                    transform: scale(1.05);
                 }
                 </style>
                 """, unsafe_allow_html = True)
@@ -281,7 +281,7 @@ with st.container():
                 }
 
                 .pzoom:hover {
-                    transform: scale(1.10);
+                    transform: scale(1.05);
                 }
                 </style>
                 """, unsafe_allow_html = True)
@@ -328,7 +328,7 @@ with st.container():
                 }
 
                 .bzoom:hover {
-                    transform: scale(1.10);
+                    transform: scale(1.05);
                 }
                 </style>
                 """, unsafe_allow_html = True)
@@ -375,7 +375,7 @@ with st.container():
                 }
 
                 .dzoom:hover {
-                    transform: scale(1.10);
+                    transform: scale(1.05);
                 }
                 </style>
                 """, unsafe_allow_html = True)
@@ -408,7 +408,7 @@ with st.container():
     st.markdown("""
         <style>
             @import url(https://fonts.googleapis.com/css?family=Montserrat);
-            .ministers {
+            .tech_team {
                 text-align: center;
                 margin-top: 15px;
                 margin-bottom: 15px;
@@ -420,7 +420,7 @@ with st.container():
         </style>
     """, unsafe_allow_html = True)
 
-    st.markdown("<h2 class = 'ministers'>TECHNICAL TEAM</h2>", unsafe_allow_html = True)
+    st.markdown("<h2 class = 'tech_team'>TECHNICAL TEAM</h2>", unsafe_allow_html = True)
 
     # TECHNICAL TEAM: IMAGE & NAME
     JEFF_IMG_COL, JOBIT_IMG_COL, DANNY_IMG_COL = st.columns(3)
@@ -446,7 +446,7 @@ with st.container():
                 }
 
                 .jzoom:hover {
-                    transform: scale(1.10);
+                    transform: scale(1.05);
                 }
                 </style>
                 """, unsafe_allow_html = True)
@@ -494,7 +494,7 @@ with st.container():
                 }
 
                 .jozoom:hover {
-                    transform: scale(1.10);
+                    transform: scale(1.05);
                 }
                 </style>
                 """, unsafe_allow_html = True)
@@ -542,7 +542,7 @@ with st.container():
                 }
 
                 .dazoom:hover {
-                    transform: scale(1.10);
+                    transform: scale(1.05);
                 }
                 </style>
                 """, unsafe_allow_html = True)
