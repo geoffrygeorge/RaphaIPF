@@ -21,11 +21,11 @@ st.set_page_config(
     layout = "wide"
 )
 
-def home_page_css(file_name):
+def app_style(file_name):
     with open(file_name) as f:
         st.markdown(f"""<style>{f.read()}</style>""", unsafe_allow_html=True)
 
-home_page_css("Assets/styles/home_page.css")
+app_style("Assets/styles/app_style.css")
 
 
 # ----- SIDEBAR -----
