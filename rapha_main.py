@@ -25,7 +25,7 @@ def home_page_css(file_name):
     with open(file_name) as f:
         st.markdown(f"""<style>{f.read()}</style>""", unsafe_allow_html=True)
 
-home_page_css("assets/styles/home_page.css")
+home_page_css("Assets/styles/home_page.css")
 
 
 # ----- SIDEBAR -----
