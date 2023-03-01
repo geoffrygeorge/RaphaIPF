@@ -1,0 +1,41 @@
+#MainMenu { /*hamburger menu hidden*/
+    visibility: hidden;
+}
+
+.css-jlsh98 { /*default header customisation*/
+    background: rgba(214,234,248,0.5); backdrop-filter: blur(5px);
+}
+
+footer { /*default footer hidden*/
+    visibility: hidden;
+}
+
+/*footer:after
+    visibility: visible; 
+    content: "Copyright @ 2023: Rapha International Ministries";
+    display: block;
+    color: white;
+}
+*/
+
+.css-1nkmln7 { /*anchor link hidden*/
+    display: none
+}
+
+.css-fblp2m { /*sidebar arrow animation*/
+    animation: zoom-in-zoom-out 1s ease infinite;
+}
+
+@keyframes zoom-in-zoom-out {
+0% {
+    transform: scale(1, 1);
+}
+
+50% {
+    transform: scale(2, 2);
+}
+
+100% {
+    transform: scale(1, 1);
+}
+}
