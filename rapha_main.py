@@ -21,35 +21,11 @@ st.set_page_config(
     layout = "wide"
 )
 
-st.markdown("""
-    <style>
-    #MainMenu {visibility: hidden;}
-    .css-jlsh98 {background: rgba(214,234,248,0.5); backdrop-filter: blur(5px);}
-    footer {visibility: hidden;}
-    /*footer:after {visibility: visible; 
-                  content: "Copyright @ 2023: Rapha International Ministries";
-                  display: block;
-                  color: white;
-                  }
-    */
-    .css-1nkmln7 {display: none} /*anchor link hidden*/
-    .css-fblp2m {animation: zoom-in-zoom-out 1s ease infinite;} /*sidebar arrow animation*/
+def home_page_css(file_name):
+    with open(file_name) as f:
+        st.markdown(f"""<style>{f.read()}</style>""", unsafe_allow_html=True)
 
-    @keyframes zoom-in-zoom-out {
-    0% {
-        transform: scale(1, 1);
-    }
-
-    50% {
-        transform: scale(2, 2);
-    }
-
-    100% {
-        transform: scale(1, 1);
-    }
-    }
-    </style>
-    """, unsafe_allow_html = True)
+home_page_css("assets/styles/home_page.css")
 
 
 # ----- SIDEBAR -----
