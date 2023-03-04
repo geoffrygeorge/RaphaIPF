@@ -44,3 +44,23 @@ def about_bg(SVG_IMAGE):
         """, unsafe_allow_html = True)
 
 about_bg("Assets/images/LUMINS.svg")
+
+# ----- MEETINGS -----
+with st.container():
+    
+    # TITLE
+    st.markdown("""
+        <style>
+            @import url(https://fonts.googleapis.com/css?family=Montserrat);
+            .meetings {
+                text-align: center;
+                margin-top:-50px;
+                font-size: calc(1.0em + 4vmin);
+                font-family: 'Montserrat', sans-serif;
+                font-weight: bold;
+                color: white;
+            }
+        </style>
+    """, unsafe_allow_html = True)
+
+    st.markdown("<h2 class = 'meetings'>Meetings</h2>", unsafe_allow_html = True)
