@@ -20,7 +20,7 @@ def app_style(file_name):
     with open(file_name) as f:
         st.markdown(f"""<style>{f.read()}</style>""", unsafe_allow_html=True)
 
-app_style("Assets/styles/about_style.css")
+app_style("styles/about_style.css")
 
 
 # ----- ABOUT US BACKGROUND -----
