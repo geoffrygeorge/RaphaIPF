@@ -10,7 +10,7 @@
     backdrop-filter: blur(5px);
 }
 
-header:after { /*default header text animation*/
+header:after { /*custom header text animation*/
     animation-name: header-text;
     animation-duration: 3s;
     animation-iteration-count: infinite;
@@ -41,12 +41,12 @@ footer { /*default footer hidden*/
     visibility: hidden;
 }
 
-/*footer:after {
+/*footer:after { /*custom footer text/
+    visibility: visible;
     content: "Copyright @ 2023: Rapha International Ministries";
     display: block;
     color: white;
-}
-*/
+}*/
 
 .css-1nkmln7 { /*anchor link hidden in custom theme*/
     display: none
