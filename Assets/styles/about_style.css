@@ -27,13 +27,13 @@ header:after { /*default header text animation*/
 
 @keyframes header-text { /*defining text animation*/
 0% {
-    content: "Contact Dr. George - +973 3897 8524";
+    content: "Contact Dr. George: +973 3897 8524";
 }
 50% {
     color: transparent;
 }
 100% {
-    content: "Contact Br. Manoj - +973 3334 1019";
+    content: "Contact Br. Manoj: +973 3334 1019";
 }
 }
 
