@@ -19,7 +19,7 @@ from pathlib2 import Path
 # favicon_img = Image.open("images/Rapha-Logo.ico") ## this method is deprecated
 st.set_page_config(
     page_title = "Home - Rapha Int'l Ministries",
-    page_icon = "assets/images/RAPHA LOGO.png",
+    page_icon = "data/images/RAPHA LOGO.png",
     initial_sidebar_state = "collapsed",
     layout = "wide"
 )
@@ -53,7 +53,7 @@ def home_bg(HOME_BG_IMAGE):
         </style>
         """, unsafe_allow_html = True)
 
-home_bg("assets/images/PRAY.jpg")
+home_bg("data/images/PRAY.jpg")
 
 # ----- RAPHA LOGO AND MAIN TITLE(S) -----
 with st.container():
@@ -71,7 +71,7 @@ with st.container():
             return IMG_HTML
 
         st.markdown(
-            "<p style = 'text-align: center;'>"+img_to_html('assets/images/RAPHA LOGO.png')+"</p>", unsafe_allow_html = True
+            "<p style = 'text-align: center;'>"+img_to_html('data/images/RAPHA LOGO.png')+"</p>", unsafe_allow_html = True
             )
 
     # 2nd updated method
@@ -105,7 +105,7 @@ with st.container():
             f"""
             <img src = "data:image/{"png"};base64,{ENCODED_STRING.decode()}" class="logo">""", unsafe_allow_html = True)
 
-    home_logo("assets/images/RAPHA LOGO.png")
+    home_logo("data/images/RAPHA LOGO.png")
 
     # MAIN TITLE
     # <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet'/>

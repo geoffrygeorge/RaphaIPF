@@ -11,7 +11,7 @@ import base64
 # favicon_img = Image.open("images/Rapha-Logo.ico") ## this method is deprecated
 st.set_page_config(
     page_title = "About Us - Rapha Int'l Ministries",
-    page_icon = "assets/images/RAPHA LOGO.png",
+    page_icon = "data/images/RAPHA LOGO.png",
     initial_sidebar_state = "collapsed",
     layout = "wide"
 )
@@ -43,7 +43,7 @@ def about_bg(SVG_IMAGE):
         </style>
         """, unsafe_allow_html = True)
 
-about_bg("assets/images/SHINY.svg")
+about_bg("data/images/SHINY.svg")
 
 # ----- OUR MINISTRY -----
 with st.container():
@@ -134,7 +134,7 @@ with st.container():
                 f"""
                 <img src = "data:image/{"png"};base64,{ENCODED_STRING.decode()}" class="george gzoom">""", unsafe_allow_html = True)
 
-        george_image("assets/images/GEORGE.png")
+        george_image("data/images/GEORGE.png")
 
     # GEORGE DESC
     with GEORGE_DESC:
@@ -200,7 +200,7 @@ with st.container():
                 f"""
                 <img src = "data:image/{"png"};base64,{ENCODED_STRING.decode()}" class="manoj mzoom">""", unsafe_allow_html = True)
 
-        manoj_image("assets/images/MANOJ.png")
+        manoj_image("data/images/MANOJ.png")
 
     # MANOJ DESC
     with MANOJ_DESC:
@@ -290,7 +290,7 @@ with st.container():
                 f"""
                 <img src = "data:image/{"png"};base64,{ENCODED_STRING.decode()}" class="ponn pzoom">""", unsafe_allow_html = True)
 
-        ponn_image("assets/images/PONN.png")
+        ponn_image("data/images/PONN.png")
 
         st.markdown("""
             <style>
@@ -337,7 +337,7 @@ with st.container():
                 f"""
                 <img src = "data:image/{"png"};base64,{ENCODED_STRING.decode()}" class="biju bzoom">""", unsafe_allow_html = True)
 
-        biju_image("assets/images/BIJU.png")
+        biju_image("data/images/BIJU.png")
 
         st.markdown("""
             <style>
@@ -384,7 +384,7 @@ with st.container():
                 f"""
                 <img src = "data:image/{"png"};base64,{ENCODED_STRING.decode()}" class="dhanish dzoom">""", unsafe_allow_html = True)
 
-        dhanish_image("assets/images/DHANISH.png")
+        dhanish_image("data/images/DHANISH.png")
 
         st.markdown("""
             <style>
@@ -455,7 +455,7 @@ with st.container():
                 f"""
                 <img src = "data:image/{"png"};base64,{ENCODED_STRING.decode()}" class="jeff pzoom">""", unsafe_allow_html = True)
 
-        jeff_image("assets/images/JEFF.png")
+        jeff_image("data/images/JEFF.png")
 
         st.markdown("""
             <style>
@@ -503,7 +503,7 @@ with st.container():
                 f"""
                 <img src = "data:image/{"png"};base64,{ENCODED_STRING.decode()}" class="jobit jozoom">""", unsafe_allow_html = True)
 
-        jobit_image("assets/images/JOBIT.png")
+        jobit_image("data/images/JOBIT.png")
 
         st.markdown("""
             <style>
@@ -551,7 +551,7 @@ with st.container():
                 f"""
                 <img src = "data:image/{"png"};base64,{ENCODED_STRING.decode()}" class="danny dazoom">""", unsafe_allow_html = True)
 
-        danny_image("assets/images/DANNY.png")
+        danny_image("data/images/DANNY.png")
 
         st.markdown("""
             <style>

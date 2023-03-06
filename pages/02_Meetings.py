@@ -11,7 +11,7 @@ import base64
 # favicon_img = Image.open("images/Rapha-Logo.ico") ## this method is deprecated
 st.set_page_config(
     page_title = "Meetings - Rapha Int'l Ministries",
-    page_icon = "assets/images/RAPHA LOGO.png",
+    page_icon = "data/images/RAPHA LOGO.png",
     initial_sidebar_state = "collapsed",
     layout = "wide"
 )
@@ -43,7 +43,7 @@ def about_bg(SVG_IMAGE):
         </style>
         """, unsafe_allow_html = True)
 
-about_bg("assets/images/LUMINS.svg")
+about_bg("data/images/LUMINS.svg")
 
 # ----- MEETINGS -----
 with st.container():
