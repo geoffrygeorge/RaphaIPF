@@ -1,0 +1,72 @@
+/*CUSTOM CSS FOR MEETINGS PAGE*/
+
+#MainMenu { /*hamburger menu hidden*/
+    visibility: hidden;
+}
+
+.css-jlsh98 { /*default header customisation*/
+    background: rgba(214,234,248,0.5);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+}
+
+header:after { /*custom header text animation*/
+    animation-name: header-text;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    content: "Welcome to Rapha Int'l Ministries";
+    color: white;
+    margin-left: 3rem;
+    margin-top: 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    display: block;
+}
+
+@keyframes header-text { /*defining text animation*/
+0% {
+    content: "Offline meeting at 7:00 PM";
+}
+50% {
+    color: transparent;
+}
+100% {
+    content: "Join Online at 6:30 PM";
+}
+}
+
+footer { /*default footer hidden*/
+    visibility: hidden;
+}
+
+/*footer:after { /*custom footer text/
+    visibility: visible;
+    content: "Copyright @ 2023: Rapha International Ministries";
+    display: block;
+    color: white;
+}*/
+
+.css-1nkmln7 { /*anchor link hidden in custom theme*/
+    display: none
+}
+
+.css-fblp2m { /*sidebar arrow animation*/
+    animation-name: sidebar-arrow;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+}
+
+@keyframes sidebar-arrow { /*defining arrow animation*/
+0% {
+    transform: scale(1, 1);
+}
+50% {
+    transform: scale(2, 2);
+}
+100% {
+    transform: scale(1, 1);
+}
+}
