@@ -84,8 +84,8 @@ with st.container():
             img {
                 display: block;
                 max-width: 40%;
-                max-height: auto;
-                margin-left: auto;
+                max-height: auto; 
+                margin-left: auto; /* or margin: 0 auto; */
                 margin-right: auto;
                 margin-top: -30px;
                 padding-bottom: 30px;
