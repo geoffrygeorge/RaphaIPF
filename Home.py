@@ -31,7 +31,7 @@ def app_style(file_name):
 
 app_style("styles/home_style.css")
 
-add_logo("data/images/RAPHA_HEADER.png")
+add_logo("data/images/RAPHA_SIDEBAR.png")
 # ----- HOME BACKGROUND -----
 # background resources: https://unsplash.com/s/photos/prayer
 # Photo by <a href="https://unsplash.com/@patrickian4?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Patrick Fore</a> on <a href="https://unsplash.com/s/photos/prayer?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
