@@ -4,6 +4,7 @@ ABOUT US PAGE
 
 # ----- IMPORTING NECESSARY LIBRARIES
 import streamlit as st
+from streamlit_extras.app_logo import add_logo
 import base64
 from src.about_us import ministry, founders, ministers, techteam
 
@@ -22,6 +23,9 @@ def app_style(file_name):
         st.markdown(f"""<style>{f.read()}</style>""", unsafe_allow_html=True)
 
 app_style("styles/about_style.css")
+
+# sidebar rapha logo
+add_logo("data/images/RAPHA_SIDEBAR.png")
 
 
 # ----- ABOUT US BACKGROUND -----
