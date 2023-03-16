@@ -6,6 +6,7 @@ MEETINGS PAGE
 import streamlit as st
 from streamlit_extras.app_logo import add_logo
 import base64
+from src import processors
 
 
 # ----- PAGE LAYOUT SETTINGS -----
@@ -26,28 +27,9 @@ app_style("styles/meetings_style.css")
 # sidebar rapha logo
 add_logo("data/images/RAPHA_SIDEBAR.png")
 
-
 # ----- MEETINGS BACKGROUND -----
-def about_bg(SVG_IMAGE):
-    """
-    SVG Encoder for setting .svg images as background(s)
-    """
-    with open(SVG_IMAGE, "rb") as SVG_IMAGE:
-        ENCODED_STRING = base64.b64encode(SVG_IMAGE.read())
-    st.markdown(
-        f"""
-        <style>
-        .stApp {{
-            background-image: url(data:image/{"svg+xml"};base64,{ENCODED_STRING.decode()});
-            background-position: center;
-            background-attachment: fixed;
-            background-repeat: no-repeat;
-            background-size: cover;
-        }}
-        </style>
-        """, unsafe_allow_html = True)
+processors.svg_bg("data/images/LUMINS.svg")
 
-about_bg("data/images/LUMINS.svg")
 
 # ----- MEETINGS -----
 with st.container():

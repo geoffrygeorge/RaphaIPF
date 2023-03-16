@@ -14,6 +14,7 @@ from streamlit_option_menu import option_menu
 from streamlit_extras.app_logo import add_logo
 import base64
 from pathlib2 import Path
+from src import processors
 
 
 # ----- PAGE LAYOUT SETTINGS -----
@@ -34,30 +35,11 @@ app_style("styles/home_style.css")
 # sidebar rapha logo
 add_logo("data/images/RAPHA_SIDEBAR.png")
 
-
 # ----- HOME BACKGROUND -----
 # background resources: https://unsplash.com/s/photos/prayer
 # Photo by <a href="https://unsplash.com/@patrickian4?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Patrick Fore</a> on <a href="https://unsplash.com/s/photos/prayer?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-def home_bg(HOME_BG_IMAGE):
-    """
-    JPG Encoder for setting .jpg images as background(s)
-    """
-    with open(HOME_BG_IMAGE, "rb") as HOME_BG_IMAGE:
-        ENCODED_STRING = base64.b64encode(HOME_BG_IMAGE.read())
-    st.markdown(
-        f"""
-        <style>
-        .stApp {{
-            background-image: url(data:image/{"jpg"};base64,{ENCODED_STRING.decode()});
-            background-position: center;
-            background-attachment: fixed;
-            background-repeat: no-repeat;
-            background-size: cover;
-        }}
-        </style>
-        """, unsafe_allow_html = True)
+processors.jpg_bg("data/images/PRAY.jpg")
 
-home_bg("data/images/PRAY.jpg")
 
 # ----- RAPHA LOGO AND MAIN TITLE(S) -----
 with st.container():
