@@ -21,7 +21,7 @@ st.set_page_config(
 processors.app_style("styles/contact_style.css")
 
 # sidebar rapha logo
-add_logo("data/images/RAPHA_SIDEBAR.png")
+# add_logo("data/images/RAPHA_SIDEBAR.png")
 
 # ----- CONTACT US BACKGROUND -----
 processors.svg_bg("data/images/LUMINS.svg")

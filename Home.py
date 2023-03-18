@@ -29,7 +29,7 @@ st.set_page_config(
 processors.app_style("styles/home_style.css")
 
 # sidebar rapha logo
-add_logo("data/images/RAPHA_SIDEBAR.png")
+# add_logo("data/images/RAPHA_SIDEBAR.png")
 
 # ----- HOME BACKGROUND -----
 # background resources: https://unsplash.com/s/photos/prayer

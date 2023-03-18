@@ -21,7 +21,7 @@ st.set_page_config(
 processors.app_style("styles/meetings_style.css")
 
 # sidebar rapha logo
-add_logo("data/images/RAPHA_SIDEBAR.png")
+# add_logo("data/images/RAPHA_SIDEBAR.png")
 
 # ----- MEETINGS BACKGROUND -----
 processors.svg_bg("data/images/LUMINS.svg")
