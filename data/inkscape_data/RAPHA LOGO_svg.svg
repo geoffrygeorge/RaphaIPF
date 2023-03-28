@@ -25,15 +25,15 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      showgrid="false"
-     inkscape:zoom="1.4142136"
-     inkscape:cx="286.7318"
-     inkscape:cy="269.40768"
+     inkscape:zoom="1"
+     inkscape:cx="176.5"
+     inkscape:cy="213"
      inkscape:window-width="1536"
      inkscape:window-height="793"
      inkscape:window-x="1912"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer7"
+     inkscape:current-layer="layer8"
      showguides="false" /><g
      inkscape:groupmode="layer"
      inkscape:label="Image"
@@ -94,7 +94,7 @@
      inkscape:groupmode="layer"
      id="layer1"
      inkscape:label="Base Layer"
-     style="display:none"><circle
+     style="display:inline"><circle
        style="display:inline;fill:#f0ffff;fill-opacity:1;stroke:#000000;stroke-width:2.63748"
        id="Outer_Circle"
        cx="233.33333"
@@ -103,7 +103,7 @@
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="Earth"
-     style="display:none"><circle
+     style="display:inline"><circle
        style="display:inline;fill:#b9ffff;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-dasharray:none"
        id="Inner_Circle"
        cx="233.33333"
@@ -198,7 +198,7 @@
      inkscape:groupmode="layer"
      id="layer3"
      inkscape:label="Fire"
-     style="display:none"><g
+     style="display:inline"><g
        id="Fire_Objects"
        style="display:inline"><g
          id="Main_Fire"
@@ -294,7 +294,7 @@
      inkscape:groupmode="layer"
      id="layer4"
      inkscape:label="Book"
-     style="display:none"><path
+     style="display:inline"><path
        style="display:inline;fill:#00e9ff;fill-opacity:0.996078;stroke:#000000;stroke-width:0;stroke-dasharray:none"
        d="M 285.26562,235.60937 C 288.52589,234.57184 289.25,236.75 289.25,236.75 l 20.52906,59.01951 c 1.5468,4.48571 -2.85053,5.10443 -2.85053,5.10443 l -63.77219,12.81631 H 224.46221 L 158.5245,297.84664 c -2.65165,-0.90599 -1.3995,-4.03414 -1.3995,-4.03414 l 23.0625,-58.90625 c 0.875,-1.75 3.875,-0.75 3.875,-0.75 l 50.25,15.42187 z"
        id="Book_Base"
@@ -327,7 +327,7 @@
      inkscape:groupmode="layer"
      id="layer5"
      inkscape:label="Hand"
-     style="display:none"><g
+     style="display:inline"><g
        style="clip-rule:evenodd;display:inline;fill-rule:evenodd;image-rendering:optimizeQuality;shape-rendering:geometricPrecision;text-rendering:geometricPrecision"
        id="g12158"
        transform="matrix(0.83005636,0,0,0.83005636,192.24554,193.86481)"
@@ -521,7 +521,7 @@
      inkscape:groupmode="layer"
      id="layer6"
      inkscape:label="Star"
-     style="display:none"><g
+     style="display:inline"><g
        id="Star_Objects"
        style="display:inline"><g
          id="Star_3"
@@ -654,4 +654,7 @@
        d="m 95.812969,327.92077 -30.163174,53.9977 c 0,0 155.037705,107.01903 336.037705,-1.48097 l -31.52782,-52.26857 c 0,0 -136.06407,88.73327 -274.346711,-0.24816 z"
        id="path436"
        sodipodi:nodetypes="ccccc"
-       inkscape:label="Central" /></g></svg>
+       inkscape:label="Central" /></g><g
+     inkscape:groupmode="layer"
+     id="layer8"
+     inkscape:label="Text" /></svg>
