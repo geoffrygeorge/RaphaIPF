@@ -13,7 +13,7 @@ from src import processors
 # ----- PAGE LAYOUT SETTINGS -----
 # favicon_img = Image.open("images/Rapha-Logo.ico") ## this method is deprecated
 st.set_page_config(
-    page_title = "About Us - Rapha Int'l Ministries",
+    page_title = "Mission Statements - Rapha Int'l Ministries",
     page_icon = "data/images/RAPHA LOGO.png",
     initial_sidebar_state = "collapsed",
     layout = "wide"
