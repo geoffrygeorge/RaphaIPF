@@ -8,9 +8,11 @@
     background: rgba(214,234,248,0.5);
     -webkit-backdrop-filter: blur(5px);
     backdrop-filter: blur(5px);
+    visibility: hidden;
 }
 
-header:after { /*custom header text animation*/
+/*
+header:after { /*custom header text animatio/
     animation-name: header-text;
     animation-duration: 3s;
     animation-iteration-count: infinite;
@@ -23,9 +25,10 @@ header:after { /*custom header text animation*/
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     display: block;
-}
+}*/
 
-@keyframes header-text { /*defining text animation*/
+/*
+@keyframes header-text { /*defining text animation/
 0% {
     content: "Welcome to Rapha Int'l Ministries";
 }
@@ -35,11 +38,13 @@ header:after { /*custom header text animation*/
 100% {
     content: "Tap on arrow to launch sidebar";
 }
-}
+}*/
 
-footer { /*default footer hidden*/
+/*
+footer { /*default footer hidden/
     visibility: hidden;
 }
+*/
 
 /*footer:after { /*custom footer text/
     visibility: visible;
@@ -48,18 +53,20 @@ footer { /*default footer hidden*/
     color: white;
 }*/
 
-.css-1nkmln7 { /*anchor link hidden in custom theme*/
+.st-emotion-cache-1nkmln7 { /*anchor link hidden in custom theme*/
     display: none
 }
 
-.css-fblp2m { /*sidebar arrow animation*/
+/*
+.css-fblp2m { /*sidebar arrow animation/
     animation-name: sidebar-arrow;
     animation-duration: 1s;
     animation-timing-function: ease;
     animation-iteration-count: infinite;
-}
+}*/
 
-@keyframes sidebar-arrow { /*defining arrow animation*/
+/*
+@keyframes sidebar-arrow { /*defining arrow animation/
 0% {
     transform: scale(1, 1);
 }
@@ -69,4 +76,4 @@ footer { /*default footer hidden*/
 100% {
     transform: scale(1, 1);
 }
-}
+}*/
