@@ -120,25 +120,16 @@ with st.container():
                 font-size: calc(1.0em + 1vmin);
                 font-family: 'Montserrat', sans-serif;
                 font-weight: bold;
+                padding-bottom: 50px;
                 color: white;
             }
         </style>
         """, unsafe_allow_html = True)
 
     st.markdown("<h2 class = 'second_title'>Kingdom of Bahrain, since 2020</h2>", unsafe_allow_html = True)
-        
-    # BIBLE VERSE
-    st.markdown("""
-        <style>
-            @import url(https://fonts.googleapis.com/css?family=Montserrat);
-            .verse_medium-font {
-                text-align: center;
-                font-size: calc(1.0em + 1vmin);
-                font-family: 'Montserrat', sans-serif;
-                font-weight: medium;
-                color: white;
-            }
-        </style>
-    """, unsafe_allow_html = True)
+    
+    # redirect to main homepage
+    col1, col2, col3 = st.columns(3)
 
-    st.markdown("""<p class = "verse_medium-font">"Philippians 4:13 - I can do all things through Christ Who strengthens me"</p>""", unsafe_allow_html = True)
+    with col2:
+        st.link_button("Navigate to Main Homepage","https://raphaintlministries.org/",use_container_width=True)
