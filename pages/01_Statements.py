@@ -6,7 +6,7 @@ ABOUT US PAGE
 import streamlit as st
 from streamlit_extras.app_logo import add_logo
 import base64
-from src.about_us import ministry, founders, ministers, techteam
+from src.statements import faith
 from src import processors
 
 
@@ -28,22 +28,7 @@ processors.app_style("styles/about_style.css")
 processors.svg_bg("data/images/SHINY.svg")
 
 
-# ----- OUR MINISTRY -----
+# ----- FAITH STATEMENT -----
 with st.container():
     
-    ministry.ministry_main()
-
-# ----- OUR FOUNDERS -----
-with st.container():
-
-    founders.founders_main()
-
-# ----- OUR MINISTERS -----
-with st.container():
-
-    ministers.ministers_main()
-
-# ----- TECHNICAL TEAM -----
-with st.container():
-
-    techteam.techteam_main()
+    faith.faith_main()
