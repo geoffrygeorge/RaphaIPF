@@ -37,7 +37,7 @@ def core_value_main():
         </style>
     """, unsafe_allow_html = True)
 
-    st.markdown("""<p class = "corevalue_medium-font">Since Christianity is anchored on core values that are considered fundamental to living a life dedicated to serving God and others Rapha International Ministries is committed to abide on these values. Such values provide a moral compass for all holistic mission activities of Rapha International Ministries worldwide. It follows the values such as:</p>""", unsafe_allow_html = True)
+    st.markdown("""<p class = "corevalue_medium-font">HELLOSince Christianity is anchored on core values that are considered fundamental to living a life dedicated to serving God and others Rapha International Ministries is committed to abide on these values. Such values provide a moral compass for all holistic mission activities of Rapha International Ministries worldwide. It follows the values such as:</p>""", unsafe_allow_html = True)
 
     st.markdown("""<p class = "corevalue_medium-font"><strong>LOVE:</strong> Christianity is founded on the concept of love for God and others. Love is the most important of all virtues, and it manifests itself through acts of kindness, compassion, and selflessness.</p>""", unsafe_allow_html = True)
 
