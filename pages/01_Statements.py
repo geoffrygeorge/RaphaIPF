@@ -6,7 +6,7 @@ STATEMENTS PAGE
 import streamlit as st
 from streamlit_extras.app_logo import add_logo
 import base64
-from src.statements import faith,core_value
+from src.statements import faith, core_value, message, vision, mission
 from src import processors
 
 
@@ -37,3 +37,18 @@ with st.container():
 with st.container():
 
     core_value.core_value_main()
+
+# ----- MESSAGE STATEMENT -----
+with st.container():
+
+    message.message_main()
+
+# ----- VISION STATEMENT -----
+with st.container():
+
+    vision.vision_main()
+
+# ----- MISSION STATEMENT -----
+with st.container():
+
+    mission.mission_main()
