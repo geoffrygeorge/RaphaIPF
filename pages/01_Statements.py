@@ -1,12 +1,12 @@
 """
-ABOUT US PAGE
+STATEMENTS PAGE
 """
 
 # ----- IMPORTING NECESSARY LIBRARIES
 import streamlit as st
 from streamlit_extras.app_logo import add_logo
 import base64
-from src.statements import faith
+from src.statements import faith,core_value
 from src import processors
 
 
@@ -24,7 +24,7 @@ processors.app_style("styles/about_style.css")
 # sidebar rapha logo
 # add_logo("data/images/RAPHA_SIDEBAR.png")
 
-# ----- ABOUT US BACKGROUND -----
+# ----- STATEMENTS BACKGROUND -----
 processors.svg_bg("data/images/SHINY.svg")
 
 
@@ -32,3 +32,8 @@ processors.svg_bg("data/images/SHINY.svg")
 with st.container():
     
     faith.faith_main()
+
+# ----- CORE-VALUE STATEMENT -----
+with st.container():
+
+    core_value.core_value_main()
