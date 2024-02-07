@@ -21,7 +21,7 @@ def faith_main():
         </style>
     """, unsafe_allow_html = True)
 
-    st.markdown("<h2 class = 'faith'>FAITH STATEMENT</h2>", unsafe_allow_html = True)
+    st.markdown("<h2 class = 'faith'>FAITHS STATEMENT</h2>", unsafe_allow_html = True)
 
     # DESCRIPTION
     st.markdown("""
