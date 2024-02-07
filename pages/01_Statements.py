@@ -19,7 +19,7 @@ st.set_page_config(
     layout = "wide"
 )
 
-processors.app_style("styles/about_style.css")
+processors.app_style("styles/style.css")
 
 # sidebar rapha logo
 # add_logo("data/images/RAPHA_SIDEBAR.png")
