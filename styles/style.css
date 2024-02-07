@@ -1,0 +1,16 @@
+/*CUSTOM CSS*/
+
+#MainMenu { /*hamburger menu hidden*/
+    visibility: hidden;
+}
+
+.st-emotion-cache-jlsh98 { /*default header customisation*/
+    background: rgba(214,234,248,0.5);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    visibility: hidden;
+}
+
+.st-emotion-cache-1nkmln7 { /*anchor link hidden in custom theme*/
+    display: none
+}
